@@ -4,6 +4,10 @@
 
 适合想玩一点音乐、和朋友交换创意的麦当劳用户。无需音乐基础；示例餐盘无需账号，真实餐品需要自己的麦当劳 MCP Token。
 
+[打开 McBeat，听听这顿的节奏 ↗](https://mcbeat-meal-mixes.woodsy-lime-5011.chatgpt.site)
+
+![McBeat 桌面混音台：四份餐品对应贝斯、鼓组、旋律和和声，可切换 Lo-fi 与 8-bit 风格](docs/media/studio.png)
+
 ## 玩法
 
 1. 点击「开始演奏」，使用 Lo-fi 或 8-bit 风格。
@@ -15,6 +19,23 @@
 公开网站：https://mcbeat-meal-mixes.woodsy-lime-5011.chatgpt.site
 
 源码：https://github.com/Beaconsyh08/mcbeat
+
+## 看一遍就会玩
+
+**演奏 → 换餐品与风格 → 分享 → 朋友打开 → 接着改编 → 再次分享。**
+
+下面的无声动图由实际操作页面截帧组成，每步停留 2 秒；音乐请在[在线体验](https://mcbeat-meal-mixes.woodsy-lime-5011.chatgpt.site)中点击「开始演奏」。
+
+![六步操作演示：演奏餐盘、改成咖啡与 8-bit、分享链接、朋友免登录打开、换成麦乐鸡独立改编、再次分享](docs/media/share-remix.gif)
+
+### 真实餐盘，朋友接着玩
+
+| 从门店真实菜单配满餐盘 | 朋友打开分享链接 |
+| :---: | :---: |
+| <img src="docs/media/real-menu-mobile.png" width="320" alt="真实 MCP 联调截图：四个声部均为真实餐品，饮料保留无糖选择"> | <img src="docs/media/friend-remix.png" width="320" alt="朋友无需登录即可试听，点击接着改编生成自己的版本"> |
+| 连接 MCP → 选门店 →「用真实菜单配满餐盘」 | 免登录试听 →「接着改编」→ 换餐品 → 再分享 |
+
+左图来自 2026-10-23 的线上真实 MCP 联调；餐品供应以所选门店的实时菜单为准。动图和右图使用离线试玩餐盘演示分享流程；朋友改编后生成独立版本，原曲保持不变。
 
 ## 本地运行
 
