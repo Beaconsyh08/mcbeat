@@ -6,7 +6,7 @@
 
 [打开 McBeat，听听这顿的节奏 ↗](https://mcbeat-meal-mixes.woodsy-lime-5011.chatgpt.site)
 
-![McBeat 桌面混音台：四份餐品对应贝斯、鼓组、旋律和和声，可切换 Lo-fi 与 8-bit 风格](docs/media/studio.png)
+[![McBeat 桌面混音台：点击观看有声演示](docs/media/studio.png)](https://mcbeat-meal-mixes.woodsy-lime-5011.chatgpt.site/demo.html)
 
 ## 玩法
 
@@ -24,9 +24,20 @@
 
 **演奏 → 换餐品与风格 → 分享 → 朋友打开 → 接着改编 → 再次分享。**
 
-下面的无声动图由实际操作页面截帧组成，每步停留 2 秒；音乐请在[在线体验](https://mcbeat-meal-mixes.woodsy-lime-5011.chatgpt.site)中点击「开始演奏」。
+### 有声演示
+
+**[▶ 播放有声操作视频](https://mcbeat-meal-mixes.woodsy-lime-5011.chatgpt.site/demo.html)** · [下载 MP4](https://mcbeat-meal-mixes.woodsy-lime-5011.chatgpt.site/media/mcbeat-demo.mp4) · [亲自演奏](https://mcbeat-meal-mixes.woodsy-lime-5011.chatgpt.site)
+
+约半分钟的原声录屏：先听 Lo-fi，把可乐换成咖啡，再切到 8-bit；朋友打开链接后，将薯条换成麦乐鸡并再次分享。声音直接录自 McBeat 音乐引擎，与页面操作同步，附中文步骤字幕。点击播放器并开启声音即可观看。
+
+<details>
+<summary>快速预览：12 秒无声动图</summary>
+
+动图由实际操作页面截帧组成，每步停留 2 秒。
 
 ![六步操作演示：演奏餐盘、改成咖啡与 8-bit、分享链接、朋友免登录打开、换成麦乐鸡独立改编、再次分享](docs/media/share-remix.gif)
+
+</details>
 
 ### 真实餐盘，朋友接着玩
 
@@ -35,7 +46,7 @@
 | <img src="docs/media/real-menu-mobile.png" width="320" alt="真实 MCP 联调截图：四个声部均为真实餐品，饮料保留无糖选择"> | <img src="docs/media/friend-remix.png" width="320" alt="朋友无需登录即可试听，点击接着改编生成自己的版本"> |
 | 连接 MCP → 选门店 →「用真实菜单配满餐盘」 | 免登录试听 →「接着改编」→ 换餐品 → 再分享 |
 
-左图来自 2026-10-23 的线上真实 MCP 联调；餐品供应以所选门店的实时菜单为准。动图和右图使用离线试玩餐盘演示分享流程；朋友改编后生成独立版本，原曲保持不变。
+左图来自 2026-10-23 的线上真实 MCP 联调；餐品供应以所选门店的实时菜单为准。视频、动图和右图使用离线试玩餐盘演示分享流程；朋友改编后生成独立版本，原曲保持不变。
 
 ## 本地运行
 
@@ -80,7 +91,7 @@ npm run typecheck
 npm run build
 ```
 
-浏览器验收覆盖 1300 / 390 / 320px，播放、下一小节替换、保存恢复，以及三个独立会话的分享与改编。受无声的测试环境限制，自动化验证的是音频时钟和非零 DSP 信号。
+浏览器验收覆盖 1300 / 390 / 320px，播放、下一小节替换、保存恢复，以及三个独立会话的分享与改编。音频自动化检查覆盖时钟推进、非零 DSP 信号和演示视频音轨；实际音色可通过上方有声视频或在线体验试听。
 
 McBeat 为独立创意作品，非麦当劳官方应用。餐品供应和价格以官方实时结果为准。
 

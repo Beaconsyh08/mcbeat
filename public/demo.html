@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>McBeat · 有声演示</title>
+  <meta name="description" content="听听真实的 McBeat 音乐引擎：换一道餐品、切换 Lo-fi 与 8-bit，再让朋友接着改编。">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#faf7ef;color:#402b23;font:16px/1.65 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}main{max-width:1080px;margin:auto;padding:32px 20px 48px}header{display:flex;justify-content:space-between;align-items:center;gap:16px;border-bottom:1px solid #e4d9c7;padding-bottom:20px}.logo{font-size:26px;color:#c32c3a;font-weight:800;text-decoration:none}header a:last-child{color:#6c5546;text-underline-offset:4px}h1{font-size:clamp(28px,5vw,42px);line-height:1.25;margin:32px 0 12px}p{color:#806e5f;margin:0 0 22px}video{display:block;width:100%;max-height:76vh;background:#241d18;border-radius:16px;box-shadow:0 12px 40px #402b2314}nav{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 18px}nav a{padding:10px 20px;border-radius:24px;text-decoration:none;border:1px solid #ded2bf;color:#402b23}nav a:first-child{background:#402b23;color:#fff;border-color:#402b23}.note{font-size:14px}a:focus-visible,video:focus-visible{outline:3px solid #c32c3a;outline-offset:4px}@media(max-width:480px){main{padding:20px 14px 32px}header{font-size:14px}video{border-radius:10px}}
+  </style>
+</head>
+<body>
+  <main>
+    <header><a class="logo" href="/">♪ McBeat.</a><a href="https://github.com/Beaconsyh08/mcbeat">查看开源项目 ↗</a></header>
+    <h1>听见这顿的节奏。</h1>
+    <p>原声录屏 · Lo-fi → 换餐品 → 8-bit → 朋友接着改编</p>
+    <video controls playsinline preload="metadata" poster="/media/demo-poster.jpg" aria-label="McBeat 有声操作演示">
+      <source src="/media/mcbeat-demo.mp4" type="video/mp4">
+      你的浏览器无法播放此视频，请<a href="/media/mcbeat-demo.mp4" download>下载 MP4</a>观看。
+    </video>
+    <nav aria-label="接下来"><a href="/">自己做一顿节奏 ↗</a><a href="/media/mcbeat-demo.mp4" download>下载有声 MP4 ↓</a></nav>
+    <p class="note">点击视频播放并开启声音。音乐直接录自 McBeat 的实际演奏；本段使用离线试玩餐盘展示分享与改编，真实菜单需连接麦当劳并选择门店。</p>
+  </main>
+</body>
+</html>
